@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome My store JV!"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txtProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product List:"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/chkProduct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product 1"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkProduct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product 2"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkProduct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product 3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="product 1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="product 2"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="product 3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price: $0"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+</LinearLayout>
